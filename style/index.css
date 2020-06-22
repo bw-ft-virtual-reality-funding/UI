@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Ubuntu&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+#navBar {
+	background-color:#000080 ;
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+#navBar a {
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	font-family: 'Ubuntu', sans-serif;
+	margin-right: 5%;
+}
+
+/* Index Page Styles */
+
+#main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1%;
+}
+
+#intro{
+	border: 1px solid white;
+}
+
+
+/* About me Page styles */
+
+h1{
+
+	font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+#about-flex img {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+
+}
+#about-flex-2 img {
+	width: 400px;
+	height: 400px;
+	margin: 3%;
+	border-radius: 50%;
+
+}
+.info{
+	text-align: center;
+	padding: 1%;
+	font-size: 2rem;
+	margin-bottom: 5%;
+}
+.info a{
+	text-decoration: none;
+}
+hr {
+	margin: auto;
+	width: 50%;
+}
+#about-flex, #about-flex-2{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+footer{
+		background-color:#000080 ;
+	width: 100%;
+	padding: 3%;
+}
+
