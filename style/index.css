@@ -54,6 +54,19 @@ time, mark, audio, video {
 
 }
 
+#product-desc{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	;
+
+}
+
+#product-desc div{
+	border: 1px solid black;
+	padding: 1%;
+	margin: 1%;
+}
 
 /* About me Page styles */
 
