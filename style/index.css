@@ -24,7 +24,6 @@ time, mark, audio, video {
 #navBar {
 	background-color:#000080 ;
 	width: 100%;
-	margin-bottom: 1%;
 }
 
 #navBar a {
@@ -37,16 +36,22 @@ time, mark, audio, video {
 
 /* Index Page Styles */
 
-#main{
-	display: flex;
+#intro{
+	
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	padding: 1%;
+
+	border: 1px solid black;
+
+
 }
 
-#intro{
-	border: 1px solid white;
+#main img {
+	margin-top: 0;
+	width: 100vw;
+
 }
 
 
