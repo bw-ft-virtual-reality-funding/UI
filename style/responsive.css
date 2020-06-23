@@ -1,0 +1,41 @@
+/*Tablet breakpoint styling */
+@media only screen and (max-width:800px){
+#footer_button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#login_button button{
+    display: none;
+}
+#headset{
+    display: none;
+}
+#jumbotron {
+    width: 100vw;
+}
+#man-headset{
+width: 60%;
+}
+nav{
+    padding: 1%;
+}
+
+.product-desc{
+    flex-flow: column nowrap;
+    margin: 2%;
+}
+.product-desc p{
+    margin: 1% auto;
+}
+}
+
+/* Mobile breakpoint styling */
+
+@media only screen and (max-width: 600px) {
+    #logo{
+        width: 30%;
+    }
+
+
+}
