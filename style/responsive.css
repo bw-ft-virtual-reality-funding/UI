@@ -51,12 +51,25 @@ footer{
     text-align: center;
     margin: auto;
 }
-#footer-button button{
-    padding: 2%;
-    width: 200%;
-    font-size: 1.1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+button{
+        text-transform: uppercase;
+        background-color: rgb(1, 1, 75);
+        border: transparent 1px solid;
+        outline: none;
+        color: white;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 150px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
 }
+
 }
 
 /* Mobile breakpoint styling */
