@@ -1,3 +1,15 @@
+@media only screen and (max-width:1300px){
+    .product-desc{
+        flex-flow: column nowrap;
+        margin: 2%;
+    }
+    .product-desc p{
+        margin: 1% auto;
+    }
+
+}
+
+
 /*Tablet breakpoint styling */
 @media only screen and (max-width:800px){
 #footer_button{
@@ -10,9 +22,8 @@
 }
 #headset{
     display: none;
-}
-#jumbotron {
-    width: 100vw;
+
+} 
 }
 #man-headset{
 width: 60%;
@@ -21,12 +32,24 @@ nav{
     padding: 1%;
 }
 
-.product-desc{
-    flex-flow: column nowrap;
-    margin: 2%;
+
+#login_button_footer{
+    padding: 10%;
+    display: flex;
+    text-align: center;
 }
-.product-desc p{
-    margin: 1% auto;
+#login_button_footer button{
+    display: flex;
+	width: 200px;
+ padding: 3%;
+font-size: 2rem;
+text-align: center;
+color: white;
+box-shadow: 5px 8px 15px #4d96f5;
+border: 1px solid #121242;
+border-radius: 20px;
+background-color: #121242;
+
 }
 }
 
@@ -36,6 +59,25 @@ nav{
     #logo{
         width: 30%;
     }
+    .product-desc h3{
+        font-size: 1.5rem;
+    padding: 2%;
+    }
+    
+    .product-desc p{
+        width: 70%;
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: lighter;
+        
+    
+    }
 
+
+ /* about page */
+ #about-flex, #about-flex-2, #about-flex-3{
+     flex-flow: column nowrap;
+     align-items: center;
+ }   
 
 }
