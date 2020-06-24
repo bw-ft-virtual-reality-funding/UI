@@ -116,11 +116,8 @@ padding: 4%;
 }
 
 
-#login_button_footer{
-	display: none;
-}
-#login_button_footer button{
-	display: none;
+footer {
+	display: none;;
 }
 
 /* About me Page styles */
