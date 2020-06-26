@@ -88,11 +88,15 @@ button{
         padding: 1%;
         font-size: 1rem;
         font-weight: lighter;
+        margin-bottom: 5% ;
         
     
     }
 #man-headset {
     width: 50%;
+    margin-bottom: 8% ;
+
+
 }
 
 
